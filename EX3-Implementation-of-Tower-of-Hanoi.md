@@ -4,13 +4,13 @@
 To write a C program to implement Tower of Hanoi
 
 ## Algorithm
-1.Start the program.
-2.If n > 0, continue with the following steps.
-3.Recursively move n-1 disks from the source rod (x) to the auxiliary rod (z) using the destination rod (y) as helper.
-4.Print the move of the nth disk from the source rod (x) to the destination rod (y).
-5.Recursively move the n-1 disks from the auxiliary rod (z) to the destination rod (y) using the source rod (x) as helper.
-6.Initially call the function as TOH(n, 'A', 'B', 'C'), where 'A', 'B', and 'C' are the rod names.
-7.End the program.
+1. Start
+2. Define the priority() function to return the priority of operators.
+3. Initialize the string containing operators and operands.
+4. Loop through each character in the string.
+5. For each operator, call the priority() function to determine its priority.
+6. Print the operator and its corresponding priority level.
+8. End
 
 ## Program:
 ```
