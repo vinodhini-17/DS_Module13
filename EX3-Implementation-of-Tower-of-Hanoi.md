@@ -16,8 +16,8 @@ To write a C program to implement Tower of Hanoi
 ```
 /*
 Program to implement Tower of Hanoi
-Developed by: Aliya Sheema
-RegisterNumber: 212223230011 
+Developed by: vinodhini k
+RegisterNumber: 212223230245
 */
 
 #include<stdio.h>
